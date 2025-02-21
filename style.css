@@ -129,12 +129,13 @@ body {
 }
 
 
-@media screen (min-width: 320px) (max-width: 1200px) {
+@media only screen  and (min-width: 320px) (max-width: 1200px) {
     body {
         margin: 0px;
-        padding: 0px;
-    }   
+        padding 0px;
+    }
 }
+  
 
 
 /* Dimensions for all devices to fit

@@ -128,23 +128,6 @@ body {
     background-color: aqua; 
 }
 
-
-@media only screen  and (min-width: 320px) (max-width: 1200px) {
-    body {
-        margin: 0px;
-        padding 0px;
-    }
-}
-  
-
-
-/* Dimensions for all devices to fit
-Desktop: 1680 x 1050
-iPad: 1024 x 768
-Mobile: 480 x 320 */
-
-
-
 .form2 {
     background-color: rgb(175, 152, 188);
 }
@@ -185,3 +168,31 @@ Mobile: 480 x 320 */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
+
+
+
+
+/* Couldn't figure this out so I asked ChatGBT~ General Styles (Desktop, default view) */
+  /* Desktop */
+  @media only screen and (min-width: 1680px) {
+    .painting {
+      margin: 0px;
+      padding: 0px;
+    }
+  }
+  
+  /* iPad */
+  @media only screen and (max-width: 1024px) and (min-width: 768px) {
+    .painting {
+      margin: 0px;
+      padding: 0px;
+    }
+  }
+  
+  /* Mobile */
+  @media only screen and (max-width: 480px) {
+    .painting {
+      margin: 0px;
+      padding: 0px;
+    }
+  }

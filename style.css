@@ -1,0 +1,185 @@
+body {
+    background-color: blueviolet;
+}
+
+.stars-container {
+    position: relative;
+    background-color: rgb(21, 2, 29);
+    border: solid 14px pink;
+    border-radius: 50%;
+   }
+
+.stars-container {
+    display: grid;
+    grid-template-areas: 
+        "s1 s1 s1 s1 s1 s1"
+        "s2 s2 s2 s2 s2 s2"
+        "s3 s3 s3 s3 s3 s3"
+        "s4 s4 s4 s4 s4 s4"
+        "s5 s5 s5 s5 s5 s5"
+}
+
+.s1 {
+    grid-area: s1;
+    height: 60px;
+    width: 500px;
+    background-color: yellow;
+    clip-path: polygon(50% 0,79% 90%,2% 35%,98% 35%,21% 90%);
+    z-index: 4;
+}
+
+.s2 {
+    grid-area: s2;
+    height: 66px;
+    width: 509px;
+    background-color: green;
+    clip-path: polygon(50% 0,79% 90%,2% 35%,98% 35%,21% 90%);
+    z-index: 3;
+}
+
+
+.s3 {
+    grid-area: s3;
+    height: 60px;
+    width: 508px;
+    background-color: rgb(231, 96, 0);
+    clip-path: polygon(50% 0,79% 90%,2% 35%,98% 35%,21% 90%);
+    z-index: 5;
+}
+
+.s4 {
+    grid-area: s4;
+    height: 1160px;
+    width: 5108px;
+    background-color: rgb(128, 0, 0);
+    clip-path: polygon(50% 0,79% 90%,2% 35%,98% 35%,21% 90%);
+    margin-left: 40px;
+    z-index: 1;
+}
+
+.s5 {
+    grid-area: s5;
+    height: 60px;
+    width: 508px;
+    background-color: rgb(221, 129, 205);
+    clip-path: polygon(50% 0,79% 90%,2% 35%,98% 35%,21% 90%);
+    margin-left: 50px;
+    z-index: 2;
+}
+
+
+
+
+.book {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.b2 {
+    height: 200px;
+    width: 2200px;
+    background-color: rgb(96, 170, 16);
+    border-radius: 87%;
+    margin-top: 150px;
+    z-index: 7;
+}
+
+.b1 {
+    height: 100px;
+    width: 900px;
+    background-color: burlywood;
+    border: dashed 15px;
+    z-index: 6;
+}
+
+
+
+
+.b3 {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: solid 14px honeydew;
+    border-radius: square;
+    z-index: 9;
+}
+
+
+.b4 {
+    height: 100px;
+    width: 100px;
+    background-color: skyblue;
+    z-index: 8;
+}
+
+.b5 {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border: solid;
+    z-index: 10;
+}
+
+.ocean {
+    display: inline-block;
+    height: 500px;
+    width: 100%;
+    background-color: aqua; 
+}
+
+
+@media screen (min-width: 320px) (max-width: 1200px) {
+    .painting {
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
+/* Dimensions for all devices to fit
+Desktop: 1680 x 1050
+iPad: 1024 x 768
+Mobile: 480 x 320 */
+
+
+
+.form2 {
+    background-color: rgb(175, 152, 188);
+}
+
+.f2 {
+    color: black;
+    background-color: rgb(171, 109, 140);
+    border: dotted;
+    text-align: center;
+}
+
+.list {
+    color: white;
+    stroke-width: 30px blue;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 37px;
+    margin: 30px;
+}
+
+.form {
+    background-color: rgb(175, 152, 188);
+    display: flex;
+    justify-content: safe;
+    border-radius: 100%;
+    padding:30px;
+    margin-top: 27px;
+    margin-left: 20px;
+    margin-right: 132px;
+
+    
+}
+
+.move {
+    color: rgb(127, 222, 105);
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+

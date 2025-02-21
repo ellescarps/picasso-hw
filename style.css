@@ -130,11 +130,12 @@ body {
 
 
 @media screen (min-width: 320px) (max-width: 1200px) {
-    .painting {
+    body {
         margin: 0px;
         padding: 0px;
-    }
+    }   
 }
+
 
 /* Dimensions for all devices to fit
 Desktop: 1680 x 1050
